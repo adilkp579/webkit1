@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex,nofollow">
+<title>WebKit Admin</title>
+<link rel="stylesheet" href="admin.css">
+</head>
+<body>
+<div id="auth"><div class="card"><div class="lg" style="padding:0 0 14px;color:#111">WebKit <small>Admin</small></div><h1 id="at"></h1><p class="mut" id="as"></p><div style="margin:18px 0 6px"><label>Username<input id="un" autocomplete="username" autocapitalize="none"></label><label>Password<input id="pw" type="password" autocomplete="current-password"></label></div><button class="btn" id="ab" style="width:100%">Log in</button><div class="err" id="ae"></div></div></div>
+
+<div id="app" hidden>
+<aside class="sb" id="sb"><div class="lg">WebKit<small>ADMIN</small></div>
+<button data-v="dash">Dashboard</button><button data-v="prod">Products</button><button data-v="cat">Categories</button><button data-v="tabs">Explore Tabs</button><button data-v="pos">Positions</button><button data-v="ord">Orders</button><button data-v="cus">Customers</button><button data-v="msg">Messages <span class="nb" id="mnb" hidden></span></button><button data-v="sub">Subscribers</button><button data-v="set">Settings</button>
+<div class="sp"></div><a href="../" target="_blank" rel="noopener">View store ↗</a><button id="lo">Log out</button></aside>
+<main><div class="tb"><button id="mn" aria-label="Menu">☰</button><h1 id="ttl"></h1><div id="act"></div></div><div id="vw"></div></main>
+</div>
+<div class="md" id="md"><div class="card" id="mc"></div></div>
+<div class="toast" id="ts"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="../assets/js/config.js"></script>
+<script src="admin.js"></script>
+</body>
+</html>

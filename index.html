@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WebKit — Premium Everyday Essentials</title>
+<meta name="description" content="WebKit — premium products for modern everyday living.">
+<meta name="theme-color" content="#faf9f7">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ctext y=%27.9em%27 font-size=%2790%27%3E🛍%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="preload" as="image" href="assets/img/hero.jpg">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<header class="top" id="hd"><div class="wrap nav">
+<a href="#home" class="logo"><svg class="lgi" viewBox="0 0 24 24" aria-hidden="true"><rect x="1" y="1" width="22" height="22" rx="7" fill="currentColor"/><path d="M6 8.5l2.4 7L12 10l3.6 5.5 2.4-7" fill="none" stroke="#fff" stroke-width="2"/></svg><span>Web<i>Kit</i></span></a>
+<nav class="menu" id="menu"></nav>
+<div class="ico">
+<div class="tz"><small>Timezone</small><b id="tzv"></b></div>
+<button class="ib" id="sb" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.5-3.5"/></svg></button>
+<button class="ib" id="mb" aria-label="Messages" hidden><svg viewBox="0 0 24 24"><path d="M21 12a8 8 0 01-11.6 7.1L4 20l1-4.6A8 8 0 1121 12z"/></svg><span class="badge" id="mbn" hidden>0</span></button>
+<button class="ib" id="cb" aria-label="Cart"><svg viewBox="0 0 24 24"><path d="M6 7h12l-1 13H7L6 7z"/><path d="M9 7a3 3 0 016 0"/></svg><span class="badge" id="cn">0</span></button>
+<button class="ib" aria-label="Profile" id="pf"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21c1-4 4-6 8-6s7 2 8 6"/></svg></button>
+<button class="ib burger" id="bg" aria-label="Menu"><svg viewBox="0 0 24 24" id="bgi"><path d="M4 8h16M4 16h16"/></svg></button>
+<button class="menubtn" id="mnu" aria-label="Menu"><svg viewBox="0 0 24 24" style="width:14px;height:14px"><path d="M4 9h16M4 15h16"/></svg><span id="mnt">MENU</span></button>
+</div></div></header>
+<div class="mm" id="mm"></div>
+
+<section class="hero" id="home">
+<div class="h-big" aria-hidden="true"><span>WEBKIT</span></div>
+<img class="h-fig" id="hfig" src="assets/img/hero.jpg" width="736" height="920" alt="" fetchpriority="high">
+<div class="h-left">
+<div class="h-tag hi">Online Store</div>
+<h1 class="hi" style="animation-delay:.1s">Everything you want,<br><span class="fade">all in one place.</span></h1>
+<div class="h-rate hi" style="animation-delay:.25s"><b>★★★★★</b><span>10K+ Customers</span></div>
+</div>
+<div class="h-card hi" style="animation-delay:.4s"><div class="ht">W</div><div class="hc"><span class="hn" id="hsn">01</span><div class="htx" id="hst"></div><div class="hp"><i id="hsp"></i></div><div class="ha"><button id="hsl" aria-label="Previous">←</button><button id="hsr" aria-label="Next">→</button></div></div></div>
+<div class="h-part hi" style="animation-delay:.5s"><small>Why WebKit</small><div class="pg"><span>Cash on Delivery</span><span>Free delivery ₹999+</span><span>7-day returns</span><span>Secure OTP login</span><span>Order tracking</span><span>Genuine products</span></div></div>
+<div class="h-bar"><span>• Free delivery over ₹999</span><span>• Shipping across India</span><a href="#products">• Scroll Down</a></div>
+</section>
+<div class="h-cta"><a class="hb dark" href="#" data-shop>Shop Now <i>→</i></a><a class="hb soft" href="#categories">Explore Categories</a></div>
+
+<section id="featured"><div class="wrap">
+<div class="rv sh" data-a="up"><span class="eyebrow">Curated for you</span><h2>Featured Picks</h2></div>
+<div class="ftrack" id="fg"></div></div></section>
+
+<section id="categories"><div class="wrap">
+<div class="rv sh" data-a="up"><span class="eyebrow">Browse</span><h2>Shop by Category</h2></div>
+<div class="cats" id="cats"></div>
+<div class="shopnow rv" data-a="scale"><a class="btn btn-d" href="#products" data-shop style="padding:18px 44px;font-size:16px">Shop Now</a></div>
+</div></section>
+
+<section id="products"><div class="wrap">
+<div class="rv sh" data-a="up"><span class="eyebrow">The collection</span><h2>Explore Our Products</h2></div>
+<div class="filters" id="flt"><span class="pill"></span></div>
+<div id="pgrid"></div></div></section>
+
+<section class="show"><div class="sg">
+<img class="rv" data-a="left" src="https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?auto=format&fit=crop&w=1400&q=80" alt="Designed for better living">
+<div class="rv" data-a="right"><span class="eyebrow">Our philosophy</span><h2>Designed for Better Living</h2><p>Thoughtfully selected products for your everyday world.</p><a class="btn btn-d" href="#about">Discover More</a></div>
+</div></section>
+
+<section id="best"><div class="wrap">
+<div class="rv sh" data-a="up"><span class="eyebrow">Most loved</span><h2>Best Sellers</h2></div>
+<div class="grid big hs" id="bgd"></div></div></section>
+
+<section id="reviews" style="background:linear-gradient(180deg,#f6f6f8,#ebecef);overflow:hidden"><div class="wrap">
+<div class="rv" data-a="up" style="text-align:center"><span class="eyebrow">Testimonials</span><h2>What Our Customers Say</h2></div>
+<div class="rst" id="rst"><span class="orb o1"></span><span class="orb o2"></span>
+<div class="bub"><svg viewBox="0 0 48 24" style="width:46px;height:24px;fill:#fff;stroke:none"><path d="M12 22S2 16 2 9a5 5 0 0110-1 5 5 0 0110 1c0 7-10 13-10 13z"/><path transform="translate(24 0)" d="M12 22S2 16 2 9a5 5 0 0110-1 5 5 0 0110 1c0 7-10 13-10 13z"/></svg></div>
+<div id="rcards"></div></div>
+<div class="rctl" style="justify-content:center"><button id="rp" aria-label="Previous"><svg viewBox="0 0 24 24"><path d="M15 6l-6 6 6 6"/></svg></button><button id="rn" aria-label="Next"><svg viewBox="0 0 24 24"><path d="M9 6l6 6-6 6"/></svg></button></div>
+</div></section>
+
+<section id="about"><div class="wrap ab">
+<img class="rv" data-a="left" src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1200&q=80" alt="WebKit store">
+<div class="rv" data-a="right"><span class="eyebrow">Our story</span><h2 style="margin-bottom:20px">About WebKit</h2>
+<p>WebKit brings together carefully selected products across electronics, toys and kitchen essentials, making everyday shopping simpler, smarter and more enjoyable.</p>
+<div class="stats"><div><b>10K+</b><span>Happy Customers</span></div><div><b>500+</b><span>Products</span></div><div><b>4.9/5</b><span>Customer Rating</span></div></div></div>
+</div></section>
+
+<section id="faq"><div class="wrap">
+<div class="rv" data-a="up" style="text-align:center"><span class="eyebrow">Support</span><h2>Frequently Asked Questions</h2></div>
+<div class="faq" id="fqs"></div></div></section>
+
+<section><div class="wrap"><div class="sub rv" data-a="scale">
+<h2>Stay in the Loop</h2><p>Get product updates, exclusive offers and special deals directly from us.</p>
+<div class="sf"><input id="mob" type="tel" inputmode="numeric" placeholder="Enter your mobile number" aria-label="Mobile number" autocomplete="tel"><button class="btn btn-d" id="sbt">Subscribe</button></div>
+<div class="msg" id="msg" aria-live="polite"></div></div></div></section>
+
+<footer><div class="wrap"><div class="fg">
+<div><div class="fb">WebKit</div><p style="font-size:14px;max-width:260px">Premium products for modern everyday living.</p>
+<div class="soc"><a href="#" aria-label="Instagram">IG</a><a href="#" aria-label="Facebook">f</a><a href="#" aria-label="YouTube">▶</a><a href="#" aria-label="X">X</a></div></div>
+<div><h4>Customer Care</h4><ul><li><a href="#">Contact Us</a></li><li><a href="#">Shipping &amp; Delivery</a></li><li><a href="#">Returns &amp; Refunds</a></li><li><a href="#">Order Tracking</a></li><li><a href="#faq">FAQs</a></li></ul></div>
+<div><h4>Shop</h4><ul id="fshop"></ul></div>
+<div><h4>Company</h4><ul><li><a href="#about">About Us</a></li><li><a href="#about">Our Story</a></li><li><a href="#">Careers</a></li><li><a href="#">Privacy Policy</a></li><li><a href="#">Terms &amp; Conditions</a></li></ul></div>
+<div><h4>Contact</h4><ul><li>Customer Care: 1800-000-0000</li><li>hello@webkit.in</li><li>Mon–Sat, 9am–7pm</li><li>Kerala, India</li></ul></div>
+</div><div class="bt"><span>© 2026 WebKit. All rights reserved.</span><span>Made with care for modern shoppers.</span></div></div></footer>
+
+<div class="ov" id="ov"></div>
+<aside class="drawer" id="dr" aria-label="Cart"><div class="dh"><h3>Your Cart</h3><button class="ib" data-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><div id="ci"></div>
+<div class="df"><div><span>Subtotal</span><span id="sub">₹0</span></div><button class="btn btn-d" id="chk">Checkout</button></div></aside>
+<aside class="drawer" id="chat" aria-label="Messages"><div class="dh"><h3>Messages</h3><button class="ib" data-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div><div id="cm"></div><div class="cinput"><textarea id="cmi" rows="1" maxlength="1000" placeholder="Write a message…"></textarea><button class="btn btn-d" id="cms">Send</button></div></aside>
+<div class="so" id="so"><button class="ib x" data-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div class="in"><input id="si" placeholder="Search products or categories" autocomplete="off"><div class="sr" id="sr"></div></div></div>
+<div class="pv" id="pv"><button class="ib x" id="pvx" aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div class="pvg" id="pvg"></div><div class="pvs" id="rel"></div></div>
+<div class="pv sp" id="sp"><div class="spw"><div class="sph"><button class="btn btn-l" data-close style="min-height:40px;padding:8px 18px">← Back to home</button><h2>All Products</h2><p id="spn"></p></div><div class="spb" id="spb"></div><div id="spg"></div></div></div>
+<div class="pv" id="co"><button class="ib x" data-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="cof"></div></div>
+<div class="pv" id="pp"><button class="ib x" data-close aria-label="Close"><svg viewBox="0 0 24 24"><path d="M6 6l12 12M18 6L6 18"/></svg></button><div id="ppf"></div></div>
+<div class="toast" id="ts"></div>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.min.js"></script>
+<script src="assets/js/config.js"></script>
+<script src="assets/js/content.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
